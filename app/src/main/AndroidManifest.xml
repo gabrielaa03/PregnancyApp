@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gabrielaangebrandt.pregnancyapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".loginActivity.view.LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainActivity.view.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forumActivity.view.ForumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registrationActivity.view.RegistrationActivity"
+            android:label="@string/register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newQuestionActivity.view.NewQuestionActivity"
+            android:label="@string/startNewTopic"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".healthActivity.view.HealthActivity"
+            android:label="@string/healthy_pregnancy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".anamnesis.view.AnamnesisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newExaminationActivity.view.NewExamination"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgotenPassAcitivty.view.ForgottenPasswordAcitivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newQuestionActivity.view.NewAnswerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".photoAlbumActivity.PhotoActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

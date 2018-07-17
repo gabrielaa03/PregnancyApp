@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:lines="2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="MARIA123" />
+
+    <ImageButton
+        android:id="@+id/ib_photo"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/tv_username"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/background" />
+
+    <ImageButton
+        android:id="@+id/ib_like"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/ib_photo"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:src="@drawable/drawable_like"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<resources>
+
+    <string name="app_name">PregnancyApp</string>
+    <string name="logIn">Login</string>
+    <string name="donthaveanacc">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="forgottenPass">Forgot your password?</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="welcome_text">Dear mommy to be, </string>
+    <string name="welcome_text2">this app is created for You and Your child.</string>
+
+    <string name="settings">Settings</string>
+    <string name="logIn_with_fb">Facebook login</string>
+    <string name="log_out">Log out</string>
+    <string name="find_your_topic">Find your topic</string>
+    <string name="photo_album">Photo Album</string>
+    <string name="healthy_pregnancy">Healthy pregnancy</string>
+    <string name="my_medical_records">My medical records</string>
+    <string name="enterAllData">Enter all data</string>
+    <string name="logInWithGmail">Gmail login</string>
+    <string name="facebook_app_id">1226647800771031</string>
+    <string name="fb_login_protocol_scheme">fb1226647800771031</string>
+    <string name="secureQuestion">Answer the following question: \nWhat is your favourite animal?</string>
+    <string name="email">Email</string>
+    <string name="answer">e.g. Cat</string>
+    <string name="successfulreg">Successfully registered.</string>
+    <string name="name">Firstname and lastname</string>
+    <string name="homepage">Homepage</string>
+    <string name="errorInSavingUser">User is not saved.</string>
+    <string name="userAlreadyExists">User Already Exists</string>
+    <string name="cannotLogIn">Problem with logging in.</string>
+    <string name="open_new_question">Open new question</string>
+    <string name="save_question">Save question</string>
+    <string name="insert_text">Type question here (max. 4 lines)</string>
+    <string name="startNewTopic">Start new topic</string>
+    <string name="title_activity_health">Healthy pregnancy</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tips">Several expert tips:</string>
+
+    <string name="forum">Forum</string>
+    <string name="insertDate">Choose the date the doctor ordered as the date of childbirth:</string>
+    <string name="rh">RH</string>
+    <string name="bloodType">Choose your blood type:</string>
+    <string name="save">Save</string>
+    <string name="combsov">Indirect Coombs test</string>
+    <string name="labProtocol">Number of laboratory protocol:</string>
+    <string name="perAnamnesis">Personal anamnesis</string>
+    <string name="famAnamnesis">Family anamnesis</string>
+    <string name="thrPregnancy">Threatened pregnancy</string>
+    <string name="my_anamnesis">Anamnesis</string>
+    <string name="workout">Workouts</string>
+    <string name="food">Meals</string>
+    <string name="dateOfBirth">Date of birth</string>
+    <string name="address">Address</string>
+    <string name="dateOfExamination">&#8226; Date of examination:</string>
+    <string name="dateOfNextExamination">&#8226; Next examination:</string>
+    <string name="weekOfPregnancy">&#8226; Week of pregnancy:</string>
+    <string name="babysheartbeat">&#8226; KCS (Baby\'s heartbeat)</string>
+    <string name="bloodPressure">&#8226; RR (Blood pressure):</string>
+    <string name="urin">&#8226; Urin</string>
+    <string name="edema">&#8226; Edema</string>
+    <string name="weight">&#8226; Weight (kg)</string>
+    <string name="medicalResults">&#8226; Medical results:</string>
+    <string name="preparationTime">PREPARATION TIME:</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="normal">Normal</string>
+    <string name="Plus">+</string>
+    <string name="proteins">Proteins</string>
+    <string name="glucose">Glucose</string>
+    <string name="leukocytes">Leukocytes</string>
+    <string name="slash">/</string>
+    <string name="newEx">New examination</string>
+    <string name="otherDiseases">Other disease (chlamydia, gonorrhea, tumor etc.)</string>
+    <string name="insertEmail">Your email:</string>
+    <string name="getPass">Get password</string>
+    <string name="wrongAnswer">Wrong answer.</string>
+    <string name="cannotGetPass">Cannot get password.</string>
+    <string name="emailSent">Email sent.</string>
+    <string name="dataSaved">Data saved.</string>
+    <string name="share">Share</string>
+    <string name="imageSaved">Image saved.</string>
+    <string name="save_answer">Save answer</string>
+    <string name="insert_answer">Type answer here</string>
+    <string name="answerQuestion">Answer</string>
+    <string name="failed">Failed to read from database.</string>
+    <string name="dataCannotBeASaved">Data cannot be saved.</string>
+    <string name="error">Error</string>
+    <string name="insertAllData">Insert all data</string>
+    <string name="cannotGetData">Cannot get data.</string>
+    <string name="keyMustNotContain">Question cannot contain characters: \'/ \', \'.\',\'$\', \'#\', \'[\' ili \']\'</string>
+    <string name="choosePhoto">Choose photo first.</string>
+
+    <string-array name="blood_type_array">
+        <item>A</item>
+        <item>B</item>
+        <item>0</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="rh_type_array">
+        <item>+ (POZ)</item>
+        <item>- (NEG)</item>
+    </string-array>
+
+    <string-array name="coombs_type_array">
+        <item>POSITIVE</item>
+        <item>NEGATIVE</item>
+    </string-array>
+
+
+    <string-array name="personalAnamnesis">
+        <item>Inflammation of the vagina or cervix</item>
+        <item>Infertility or stimulated ovulation</item>
+        <item>Contigential defects and subsequent damage</item>
+        <item>Diabetes</item>
+        <item>Thyroid disease and other endocrine diseases</item>
+        <item>High blood pressure</item>
+        <item>Diseases of the heart and blood vessels</item>
+        <item>Inflammation of the urinary system</item>
+        <item>Other kidney diseases</item>
+        <item>Epilepsy </item>
+        <item>Other Nervous and Mental Illnesses</item>
+        <item>Allergic diseases</item>
+        <item>The tendency of thrombosis</item>
+        <item>Liver disease, bile, contagious jaundice and others</item>
+        <item>Constantly and often taking medication</item>
+        <item>Other disease (TBC,sexual illness etc.)</item>
+        <item>Smoking</item>
+        <item>Pregnant anomalies of genital organs</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="familyAnamnesis">
+        <item>Diabetes</item>
+        <item>Pregnant deficiencies and hereditary diseases</item>
+        <item>Nervous diseases and mental illnesses (epilepsy, mental retardation etc.)</item>
+        <item>Sensory organs (deafness, weak hearing, blindness, weak vision and other)</item>
+        <item>Gemini three</item>
+        <item>Other (other bodily injury, alcoholizm, other chronic illnesses, developmental problems, night urinating, children's cramps and the like )</item>
+    </string-array>
+
+    <string-array name="threatenedPregnancy">
+        <item>Inadequate age of mother (&lt; 18 or &gt; 34 years for dumbbell; &gt; 40 for multiple mothers)</item>
+        <item>Unfair general condition (+/- 10kg, &lt; 150cm)</item>
+        <item>Multihulls (&gt; 4)</item>
+        <item>Generalized mothers (epilepsy, elevated RR, heart disease, liver and others)</item>
+        <item>Unfavorable reproductive anamnesis (infertility, spontaneous abortion, premature labor, birth weight less than 2500g, pregnancy maintenance, operative death of a child, RH or ABO, immunization and the like)</item>
+        <item>Complications of previous pregnancies and / or births (EPH gestosis, bleeding, thrombosis, placental, pijelonephritis and others)</item>
+        <item>Malformed or prematurely disabled kid</item>
+        <item>Condition after the uterus</item>
+        <item>Unfavorable social anamnesis</item>
+    </string-array>
+
+    <string-array name="homeFacts">
+        <item>&#8226; \t The first examination should be done in the earliest pregnancy.</item>
+        <item>&#8226; \t Later examinations should not be more than once a month at end of pregnancy every two weeks.</item>
+        <item>&#8226; \t Tell your doctor about your illnesses, especially those with bowel, kidney, bladder and high blood pressure.</item>
+        <item>&#8226; \t Tell your doctor about family illnesses.</item>
+        <item>&#8226; \t Just rest yourself enough.</item>
+        <item>&#8226; \t Sleep at least eight hours a day.</item>
+        <item>&#8226; \t Do not smoke and do not consume too much coffee or alcohol because they may adversely affect the baby you are carrying.</item>
+        <item>&#8226; \t Do not feed too much or too little.</item>
+        <item>&#8226; \t Excessive weight gain until the end of pregnancy is less than 9kg and higher than 17kg may adversely affect pregnancy.</item>
+        <item>&#8226; \t Apart from other foods, too much milk and fruit will be the cause of your overweight.</item>
+    </string-array>
+
+    <string-array name="edema_array">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+
+</resources>

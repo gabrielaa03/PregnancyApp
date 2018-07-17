@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_bar_main" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/dateOfExamination"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_date"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:clickable="true"
+                android:focusable="false"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:text="21.10.2015" />
+
+            <TextView
+                android:id="@+id/tv_pregnancy_week"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_date"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/weekOfPregnancy"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linLayoutWeeks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_pregnancy_week"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner_weeks"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/spinner_background" />
+
+                <TextView
+                    android:id="@+id/tv_weeks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:text="@string/Plus"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_days"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/spinner_background" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linLayoutWeeks"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/weight"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_weight"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_rr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_weight"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/bloodPressure"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linLayoutRR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_rr"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner_sistolic"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/spinner_background" />
+
+                <TextView
+                    android:id="@+id/tv_slash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:gravity="center"
+                    android:text="@string/slash"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_diastolic"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/spinner_background" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_edema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linLayoutRR"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/edema"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_edema"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/tv_edema"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/spinner_background" />
+
+            <TextView
+                android:id="@+id/tv_urin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spinner_edema"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/urin"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutUrin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_urin"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_proteins"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:gravity="center"
+                        android:text="@string/proteins"
+                        android:textColor="@color/darkGray"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_proteins"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/spinner_background" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_glucose"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:gravity="center"
+                        android:text="@string/glucose"
+                        android:textColor="@color/darkGray"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_glucose"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/spinner_background" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_leukocytes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:gravity="center"
+                        android:text="@string/leukocytes"
+                        android:textColor="@color/darkGray"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_leukocytes"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/spinner_background" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_kcs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayoutUrin"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/babysheartbeat"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_kcs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_kcs"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_medical_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_kcs"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/medicalResults"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_medical_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_medical_results"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:maxLines="10"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_next_ex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_medical_results"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/dateOfNextExamination"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_next_ex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_next_ex"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:clickable="true"
+                android:focusable="false"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:text="21.10.2015" />
+
+            <Button
+                android:id="@+id/btn_save_examination_data"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/et_next_ex"
+                android:layout_marginTop="16dp"
+                android:background="@color/primary20"
+                android:text="@string/save"
+                android:textColor="@color/colorPrimaryDark" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

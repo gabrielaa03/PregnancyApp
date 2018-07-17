@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusableInTouchMode="true"
+    tools:context=".forumActivity.view.ForumActivity">
+
+    <include layout="@layout/app_bar_main" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/frame"
+        android:drawablePadding="8dp"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_new_question"
+        android:layout_below="@+id/et_search"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:minHeight="50dp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btn_new_question"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/open_new_question"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

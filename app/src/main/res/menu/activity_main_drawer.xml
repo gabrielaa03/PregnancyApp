@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/homepage"
+            android:title="@string/homepage" />
+        <item
+            android:id="@+id/nav_anamnesis"
+            android:icon="@drawable/ic_anamnesis"
+            android:title="@string/my_anamnesis" />
+        <item
+            android:id="@+id/nav_medical_records"
+            android:icon="@drawable/medical"
+            android:title="@string/my_medical_records" />
+        <item
+            android:id="@+id/nav_healthy_pregnancy"
+            android:icon="@drawable/health"
+            android:title="@string/healthy_pregnancy" />
+        <item
+            android:id="@+id/nav_photo_album"
+            android:icon="@drawable/photoalbum"
+            android:title="@string/photo_album" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/forum"
+            android:title="@string/find_your_topic" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/log_out" />
+    </group>
+</menu>

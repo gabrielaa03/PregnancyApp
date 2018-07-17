@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PregnancyApp</string>
+    <string name="logIn">Prijavite se</string>
+    <string name="donthaveanacc">Još nemate račun?</string>
+    <string name="register">Registrirajte se</string>
+    <string name="forgottenPass">Zaboravili ste lozinku?</string>
+    <string name="username">Korisničko ime</string>
+    <string name="password">Lozinka</string>
+    <string name="title_activity_main">MainAcitvity</string>
+
+    <string name="navigation_drawer_open">Otvori navigaciju</string>
+    <string name="navigation_drawer_close">Zatvori navigaciju</string>
+
+    <string name="settings">Postavke</string>
+    <string name="logIn_with_fb">Facebook prijava</string>
+    <string name="log_out">Odjavi se</string>
+    <string name="find_your_topic">Forum</string>
+    <string name="photo_album">Album</string>
+    <string name="healthy_pregnancy">Održavanje zdrave trudnoće</string>
+    <string name="my_medical_records">Zdravstveni pregledi</string>
+    <string name="enterAllData">Unesite sve potrebne podatke</string>
+    <string name="logInWithGmail">Gmail prijava</string>
+    <string name="facebook_app_id">1226647800771031</string>
+    <string name="fb_login_protocol_scheme">fb1226647800771031</string>
+    <string name="secureQuestion">Odgvorite na postavljeno pitanje: \nKoja Vam je najdraža životinja?</string>
+    <string name="email">Email</string>
+    <string name="answer">npr. mačka</string>
+    <string name="successfulreg">Uspješno ste registrirani.</string>
+    <string name="name">Ime i prezime</string>
+    <string name="homepage">Naslovnica</string>
+    <string name="errorInSavingUser">Korisnik nije registriran.</string>
+    <string name="userAlreadyExists">Ovaj korisnik je već registriran u sutavu.</string>
+    <string name="cannotLogIn">Problem s prijavom u sustav.</string>
+    <string name="open_new_question">Postavite novo pitanje</string>
+    <string name="save_question">Spremi pitanje</string>
+    <string name="insert_text">Unesite pitanje ovdje (max. 4 linije)</string>
+    <string name="startNewTopic">Započnite novu temu</string>
+    <string name="welcome_text">Drage buduće majke, </string>
+    <string name="welcome_text2">ova aplikacija je za Vas i Vaše dijete.</string>
+    <string name="tips">Nekoliko stručnih savjeta:</string>
+    <string name="forum">Forum</string>
+    <string name="insertDate">Odaberite datum koji je određen kao datum poroda:</string>
+    <string name="rh">RH</string>
+    <string name="bloodType">Odaberite krvnu grupu:</string>
+    <string name="save">Spremi</string>
+    <string name="combsov">Indirektan Coombsov test</string>
+    <string name="labProtocol">Broj laboratorijskog protokola:</string>
+    <string name="perAnamnesis">Osobna anamneza</string>
+    <string name="famAnamnesis">Obiteljska anamneza</string>
+    <string name="thrPregnancy">Ugroženost trudnoće</string>
+    <string name="my_anamnesis">Anamneza</string>
+    <string name="workout">Treninzi</string>
+    <string name="food">Prehrana</string>
+    <string name="dateOfBirth">Datum rođenja</string>
+    <string name="address">Adresa</string>
+
+
+    <string name="dateOfExamination">&#8226; Datum pregleda:</string>
+    <string name="dateOfNextExamination">&#8226; Sljedeći pregled:</string>
+    <string name="weekOfPregnancy">&#8226; Tjedan trudnoće:</string>
+    <string name="babysheartbeat">&#8226; KCS (otkucaji bebinog srca):</string>
+    <string name="bloodPressure">&#8226; RR (krvni tlak):</string>
+    <string name="urin">&#8226; Urin</string>
+    <string name="edema">&#8226; Edemi</string>
+    <string name="weight">&#8226; Prirast težine (kg):</string>
+    <string name="medicalResults">&#8226; Dodatne napomene kod nalaza:</string>
+    <string name="preparationTime">VRIJEME PRIPREME:</string>
+    <string name="easy">Lagano</string>
+    <string name="hard">Teško</string>
+    <string name="normal">Umjereno</string>
+
+    <string name="proteins">Proteini</string>
+    <string name="glucose">Glukoza</string>
+    <string name="leukocytes">Leukociti</string>
+    <string name="newEx">Novi pregled</string>
+    <string name="otherDiseases">Ostale bolesti (klamidija, gonoreja, tumor etc.)</string>
+
+    <string name="insertEmail">Email:</string>
+    <string name="getPass">Pošalji lozinku</string>
+    <string name="wrongAnswer">Krivi odgovor.</string>
+    <string name="cannotGetPass">Lozinka se ne može poslati.</string>
+    <string name="emailSent">Email poslan.</string>
+    <string name="dataSaved">Podaci pohranjeni.</string>
+    <string name="share">Podijeli</string>
+    <string name="imageSaved">Slika pohranjena.</string>
+    <string name="save_answer">Spremi odgovor</string>
+    <string name="insert_answer">Unesi odgovor ovdje</string>
+    <string name="answerQuestion">Odgovor</string>
+    <string name="failed">Nije moguće dohvatiti podatke iz baze.</string>
+    <string name="dataCannotBeASaved">Podaci se ne moogu pohraniti.</string>
+    <string name="error">Greška</string>
+    <string name="insertAllData">Unesite sve tražene podatke.</string>
+    <string name="cannotGetData">Podaci se ne mogu pronaći.</string>
+    <string name="keyMustNotContain">Pitanje ne smije sadržavati znakove: \'/ \', \'.\',\'$\', \'#\', \'[\' ili \']\'</string>
+    <string-array name="blood_type_array">
+        <item>A</item>
+        <item>B</item>
+        <item>0</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="rh_type_array">
+        <item>+ (POZ)</item>
+        <item>- (NEG)</item>
+    </string-array>
+
+    <string-array name="coombs_type_array">
+        <item>POZITIVAN</item>
+        <item>NEGATIVAN</item>
+    </string-array>
+
+    <string-array name="personalAnamnesis">
+        <item>Upala rodnice i cerviksa</item>
+        <item>Neplodnost ili stimulirana ovulacija</item>
+        <item>Prirođene mane i kasnije stečena oštećenja</item>
+        <item>Šećerna bolest</item>
+        <item>Bolesti štitnjače i ostale endokrine bolesti</item>
+        <item>Visoki krvni tlak</item>
+        <item>Bolesti srca i krvnih žila</item>
+        <item>Upala mokraćnog sustava</item>
+        <item>Bolesti bubrega</item>
+        <item>Epilepsija (padavica)</item>
+        <item>Ostala živčane i duševne bolesti</item>
+        <item>Alergije</item>
+        <item>Sklonost trombozi</item>
+        <item>Bolesti jetre, žuči, zarazna žutica i dr.</item>
+        <item>Stalno i često uzimanje lijekova</item>
+        <item>Ostale bolesti (TBC, spolne bolesti, ostalo)</item>
+        <item>Pušenje</item>
+        <item>Prirođene anomalije genitalnih organa</item>
+        <item>Ostalo</item>
+    </string-array>
+
+    <string-array name="familyAnamnesis">
+        <item>Šećerna bolest</item>
+        <item>Prirođene mane i nasljedne bolesti</item>
+        <item>Živčane i duševne bolesti (padavica, duševna zaostalost, paraliza)</item>
+        <item>Poremećaji osjetnih organa (gluhoća, slab sluh, slijepoća, slab vid i ostalo)</item>
+        <item>Blizanci trojke</item>
+        <item>Ostalo (ostala tjelesna oštećenja, ostale kronične bolesti, ostalo)</item>
+    </string-array>
+
+    <string-array name="threatenedPregnancy">
+        <item>Nepovoljna dob majke (&lt;18 ili &gt;34 godine za prvorotke; &gt;40 za višerotke)</item>
+        <item>Nepovoljna opća kondicija (+/- 10kg, &lt;150cm)</item>
+        <item>Višerotka (&gt;4) </item>
+        <item>Bolesti majke (epilepsija, povišen RR, bolesti srca, jetre i ostalo)</item>
+        <item>Nepovoljna reproduktivna anamneza (neplodnost, spontani pobačaj, prerani porod, porođajna težina manja od 2500g, održavana trudnoća, operinatalna smrt djeteta, RH ili ABO, imunizacija i ostalo)</item>
+        <item>Komplikacije prethodnih trudnoća i/ili poroda (EPH gestoza, krvarenje, tromboza, placenta, upala bubrega i ostalo)</item>
+        <item>Malformirano dijete</item>
+        <item>Stanje nakon operacije maternice</item>
+    </string-array>
+
+    <string-array name="homeFacts">
+        <item>&#8226; \t Prvi pregled treba obaviti u najranijoj trudnoći.</item>
+        <item>&#8226; \t Kasniji pregledi ne smiju biti rijeđi od jedan puta mjesečno, pred kraj trudnoće svaka dva tjedna.</item>
+        <item>&#8226; \t Upoznajte liječnika s Vašim bolestima koje ste preboljeli, naročito s bolestima crva, bubrega, mokraćnog mjehura te povišenog krvnog tlaka.</item>
+        <item>&#8226; \t Upoznajte liječnika s bolestima u obitelji.</item>
+        <item>&#8226; \t Odmarajte se dovoljno.</item>
+        <item>&#8226; \t Spavajte najmanje osam sati dnevno.</item>
+        <item>&#8226; \t Nemojte pušiti, nemojte konzumirati previše kave i alkohola jer mogu nepovoljno utjecati na plod koji nosite.</item>
+        <item>&#8226; \t Ne hranite se ni previše ni premalo.</item>
+        <item>&#8226; \t Priraštaj težine do kraja trudnoće manji od 9kg i veći od 17kg može nepovoljno utjecati na trudnoću.</item>
+        <item>&#8226; \t Osim ostale hrane, previše mlijeka i voća bit će uzrok Vašeg prekomjernog debljanja.</item>
+    </string-array>
+
+    <string-array name="edema_array">
+        <item>DA</item>
+        <item>NE</item>
+    </string-array>
+</resources>
